@@ -29,7 +29,7 @@ export const projects: Project[] = [
     tagline: "A Windows app that automates typing with realistic human-like patterns.",
     categories: ["Software", "Website"],
     year: 2026,
-    heroImage: "/projects/autotyper-hero.png",
+    heroImage: "https://pub-e5e1a95e681d4b3985ba54d7001a52a1.r2.dev/projects/autotyper-hero.png",
     brandColors: ["#1a0533", "#2d1b69"],
     overview:
       "AutoTyper Ninja is a Windows desktop application that simulates natural human typing. It goes beyond simple auto-typing by replicating realistic keystroke rhythms, common typos, fatigue modeling, and adjustable speed profiles. The Pro version adds a full analytics dashboard, typing profiles, and a configurable mistake engine with eight different error types. Built to be simple to use with a three-step setup: Download, Configure, Type.",
@@ -52,7 +52,7 @@ export const projects: Project[] = [
     categories: ["Website"],
     year: 2026,
     client: "Eureka Downs",
-    heroImage: "/projects/eureka-downs-hero.jpg",
+    heroImage: "https://pub-e5e1a95e681d4b3985ba54d7001a52a1.r2.dev/projects/eureka-downs-hero.jpg",
     brandColors: ["#1a3a2a", "#c8a951"],
     overview:
       "Eureka Downs is one of the oldest continuously recognized racing venues in the Midwest, established in 1872 and home to 1938 Kentucky Derby winner Lawrin. With the track reopening in 2026, they needed a modern website to announce the season, sell the history, and serve both fans and horsemen. We built a content-rich, bilingual site with event scheduling, a horsemen portal, and community-focused storytelling.",
@@ -75,7 +75,7 @@ export const projects: Project[] = [
     categories: ["Website"],
     year: 2026,
     client: "Royal Edge Landscaping",
-    heroImage: "/projects/royal-edge-hero.jpg",
+    heroImage: "https://pub-e5e1a95e681d4b3985ba54d7001a52a1.r2.dev/projects/royal-edge-hero.jpg",
     brandColors: ["#1a3c1a", "#c9a84c"],
     overview:
       "Royal Edge Landscaping is a family-owned business serving Rose Hill and Derby, Kansas. They needed a premium website to showcase their services, display past projects, and generate leads through quote requests. We built a polished, conversion-focused site with a project portfolio, client testimonials, and a free quote system.",
