@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-deep-navy: #1A1A2E;
+  --color-midnight-blue: #16213E;
+  --color-steel-blue: #0F3460;
+  --color-coral-red: #E94560;
+  --color-light-gray: #F0F0F5;
+  --color-off-white: #FAFAFA;
+  --color-text-dark: #222233;
+  --color-text-muted: #888899;
+
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+/* Light mode defaults */
+:root {
+  --background: #FAFAFA;
+  --foreground: #222233;
+  --surface: #FFFFFF;
+  --surface-alt: #F0F0F5;
+  --nav-bg: rgba(250, 250, 250, 0.85);
+  --card-border: rgba(0, 0, 0, 0.06);
+  --card-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* Dark mode */
+.dark {
+  --background: #1A1A2E;
+  --foreground: #F0F0F5;
+  --surface: #16213E;
+  --surface-alt: #0F3460;
+  --nav-bg: rgba(26, 26, 46, 0.85);
+  --card-border: rgba(255, 255, 255, 0.06);
+  --card-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+::selection {
+  background: #E94560;
+  color: #fff;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Skip to content */
+.skip-to-content {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  z-index: 100;
+  padding: 8px 16px;
+  background: #E94560;
+  color: #fff;
+  border-radius: 0 0 8px 8px;
+  font-weight: 600;
+  transition: top 0.2s;
+}
+.skip-to-content:focus {
+  top: 0;
+}
